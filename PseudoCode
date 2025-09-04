@@ -1,23 +1,95 @@
 Activity 1
 
+Get user input as a string 
+
+Convert string to an array of characters
+
+Iterate through the array 
+if the the ascii value of the character is >= to 97
+or <= 122, subtract it by 32.
+Else nothing happens
+
+Convert the array of characters back into a string then display 
 -----------
 
 
 Activity 2
 
+Declare double variables for numberOne, numberTwo, and result
+
+Ask user for first number 
+Check if the input is valid
+  If invalid display error message
+  Ask user to Input the number again
+User input = numberOne
+
+If first number is valid ask the user for the second number
+  If invalid display error message
+  Ask user to Input the number again
+User input = numberTwo
+
+result = numberOne + numberTwo 
+
+Display result
 -----------
 
 
 Activity 3
 
+declare double num = 0 
+delcare char continue = Y
+
+while (continue != N)
+  Get user input 
+    If invalid display error message
+    Ask user to Input the number again
+  num += user input
+  Display num
+
+  Ask user to input Y to continue or N to stop
+  set continue to N if user inputs n or N.
+If Y loop continues if N loop stops 
 -----------
 
 
 Activity 4
 
+declare int num
+declare int min = 0 
+declare int max
+declare char continue = y
+
+while (continue != n)
+  Get user input fpr max
+    If invalid display error message
+    Ask user to Input the number again
+  generate a random number between 0 and max and set num to it
+  Display num
+
+  Ask user to input Y to continue or N to stop
+  set continue to n if user inputs n or N.
+If y/Y loop continues if n/N loop stops 
 -----------
 
 
 Activity 5
 
+declare int even = 0
+declare int odd = 0
+declare int iteration = 0
+declare int num
+
+
+while (iteration < 10)
+  Generate random number between 1 and 100 and set num to it
+  
+  if num % 2 = 0
+    even += 1
+    display LEFT to user
+  else 
+    odd += 1 
+    display RIGHT to user 
+  iteration += 1
+
+display total number of lefts and rights
 -----------
